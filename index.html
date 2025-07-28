@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhanu Portfolio</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- ✅ Progress Bar -->
+  <div id="progressBar"></div>
+
+  <!-- ✅ Navbar + Header -->
+  <header>
+    <nav class="navbar">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#goals">Goals</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="javascript:void(0)" id="darkModeToggle">🌙 Dark Mode</a>
+    </nav>
+    <div class="header-content">
+      <h1>Welcome to Bhanu's Portfolio</h1>
+      <p>A curious learner stepping into the tech world 🚀</p>
+    </div>
+  </header>
+
+  <!-- ✅ Sections -->
+  <section id="about" class="content-section">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <img src="https://picsum.photos/150" alt="Bhanu's Profile Picture" class="profile-pic">
+      <p>Hello! I'm Bhanu, a quick learner who loves technology, music and exploring new places. I'm starting my journey to web development and enjoying building things step by step.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="content-section">
+    <h2>My Skills</h2>
+    <ul>
+      <li>💻 Learning Web Development</li>
+      <li>🎨 Exploring basic design principles</li>
+      <li>🧠 Problem-solving & critical thinking</li>
+      <li>🎵 Playing Guitar in free time</li>
+    </ul>
+  </section>
+
+  <section id="hobbies" class="content-section">
+    <h2>My Hobbies</h2>
+    <p>I love doing these things in my free time:</p>
+    <ul>
+      <li>🎸Playing Guitar</li>
+      <li>📚Reading Manga & Books</li>
+      <li>🎧Listening Music</li>
+    </ul>
+  </section>
+
+  <section id="links" class="content-section">
+    <h2>Favorite Links</h2>
+    <ul>
+      <li><a href="https://www.codecademy.com" target="_blank" class="codecademy-btn">Codecademy</a></li>
+      <li><a href="https://www.spotify.com" target="_blank" class="spotify-btn">Spotify</a></li>
+      <li><a href="https://www.tripadvisor.com" target="_blank" class="tripadvisor-btn">TripAdvisor</a></li>
+      <li><a href="https://youtube.com/" target="_blank" class="youtube-btn">YouTube</a></li>
+      <li><a href="https://github.com/" target="_blank" class="github-btn">GitHub</a></li>
+    </ul>
+  </section>
+
+  <section id="goals" class="content-section">
+    <h2>My Goals</h2>
+    <div class="goals-container">
+      <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Goals Icon" class="goals-icon">
+      <div class="goals-text">
+        <p>Here's what I want to achieve in the near future:</p>
+        <ul>
+          <li>🚀Become confident in HTML, CSS & JavaScript</li>
+          <li>💼Build real-world projects for my portfolio</li>
+          <li>🧑‍💻Land my first entry-level IT job</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="content-section">
+    <h2>My Projects</h2>
+    <div class="projects-container">
+      <div class="project-card hidden">
+        <img src="https://picsum.photos/300/150?random=1" alt="Portfolio Preview">
+        <h3>Portfolio Website</h3>
+        <p>A simple personal portfolio built with HTML and CSS.</p>
+        <a href="#" target="_blank">🔗 View Project</a>
+      </div>
+      <div class="project-card hidden">
+        <img src="https://picsum.photos/300/150?random=2" alt="Todo App Preview">
+        <h3>Todo List App</h3>
+        <p>A basic to-do list app with JavaScript for interactivity.</p>
+        <a href="#" target="_blank">🔗 View Project</a>
+      </div>
+      <div class="project-card hidden">
+        <img src="https://picsum.photos/300/150?random=3" alt="Weather App Preview">
+        <h3>Weather App</h3>
+        <p>A simple weather application that fetches live weather data using an API.</p>
+        <a href="#" target="_blank">🔗 View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="content-section">
+    <h2>Contact Me</h2>
+    <p>If you'd like to connect, feel free to send an email!</p>
+    <a href="mailto:bhanu.pratap8934@gmail.com" class="contact-btn">
+  <span>Email Me</span>
+  <!-- SVG Paper Plane Icon -->
+  <svg class="plane-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+  </svg>
+</a>
+  </section>
+
+  <!-- ✅ Footer -->
+  <footer>
+    <p>Made with ❤️ by Bhanu</p>
+  </footer>
+
+  <!-- ✅ Scroll-to-top button -->
+  <button id="scrollTopBtn">⬆</button>
+
+  <!-- ✅ External JS -->
+  <script src="script.js"></script>
+</body>
+</html>
